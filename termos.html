@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" content="width=device-width initial-scale=1" charset="utf-8">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Por Ele I Church">
+    <meta name="author" content="Unilatem">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Por Ele I Church | Termos</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS e JS Inside|-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="aos.css">
+    <script src="script.js"></script>
+    <script src="aos.js"></script>
+    <!--|CSS e JS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+    </script>
+    <!--|Animation|-->
+  </head>
+  <body>
+    <!--|Header|-->
+    <header></header>
+    <!--|Header|-->
+
+    <!--|Main|-->
+    <section id="sectm">
+      <h1 class="tttm">Termos de Uso<img class="imtm" src="images/terms.svg"></img></h1>
+      <div class="dvtm">
+        <p class="txtm">
+        Bem-vindo a Por Ele I Church! Ao acessar e utilizar nosso site, você concorda em cumprir com os seguintes termos e condições:
+        <br><br>
+        1. Uso do Site: Por Ele I Church é destinado para uso comercial e empresarial. Você concorda em utilizar o site apenas para os fins previstos no contexto de atividades comerciais.
+        <br><br>
+        2. Conteúdo do Usuário: Ao contribuir com conteúdo para a Por Ele I Church, você concede permissão para que esse conteúdo seja utilizado pela plataforma de acordo com nossos termos, principalmente no âmbito comercial.
+        <br><br>
+        3. Privacidade: Respeitamos a sua privacidade. Leia nossa política de privacidade para entender como suas informações são coletadas, utilizadas e protegidas.
+        <br><br>
+        4. Propriedade Intelectual: Todo o conteúdo presente na Por Ele I Church, incluindo textos, imagens, vídeos e logotipos, é protegido por direitos autorais e propriedade intelectual, especialmente no contexto de uso comercial.
+        <br><br>
+        5. Limitação de Responsabilidade: A Por Ele I Church não se responsabiliza por danos diretos, indiretos, incidentais, especiais ou consequenciais resultantes do uso ou incapacidade de usar nosso site no contexto comercial.
+        <br><br>
+        6. Alterações nos Termos: Reservamos o direito de modificar estes termos a qualquer momento. Recomendamos que você revise periodicamente os termos de uso.
+        <br><br>
+        Ao continuar a usar o site da Por Ele I Church, você concorda com estes termos e condições. Se tiver alguma dúvida sobre os termos de uso, entre em contato conosco.
+        </p>
+      </div>
+    </section>
+    <!--|Main|-->
+
+    <!--|Footer|-->
+    <footer></footer>
+    <!--|Footer|-->
+
+    <!--|Script|-->
+    <script>
+    </script>
+    <!--|Script|-->
+  </body>
+</html>
