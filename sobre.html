@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Por Ele I Church">
+    <meta name="author" content="Unilatem">
+    <html lang="pt"></html>
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Por Ele I Church</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS e JS Inside|-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="aos.css">
+    <script src="script.js"></script>
+    <script src="aos.js"></script>
+    <!--|CSS e JS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+    </script>
+    <!--|Animation|-->
+  </head>
+  <body>
+    <!--|Header|-->
+    <header></header>
+    <!--|Header|-->
+
+    <!--|Main|-->
+    <main>
+      <section id="sc5">
+        <h1 class="tt6" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-out">SOBRE NÓS</h1>
+        <div class="dv8">
+          <div class="dv9">
+            <img class="im6" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" src="images/pastor.jpeg">
+            <div class="bl1"></div>
+          </div>
+          <div class="dv9">
+            <p class="tx5" data-aos="fade-down" data-aos-duration="2500" data-aos-easing="ease-in-out">Na nossa igreja, temos uma história inspiradora que começa com o nosso querido Pastor Felipe Alapenha, carinhosamente conhecido como Pastor Felipinho. Desde pequeno, ele esteve envolvido com a Assembleia de Deus, pois sua mãe frequentava a igreja há muitos anos. Após três décadas de dedicação e serviço, o Pastor Felipe teve uma visão de Deus para abrir a sua própria congregação, e é assim que estamos inaugurando a nossa igreja sem fronteiras.</p>
+            <p class="tx5" data-aos="fade-down" data-aos-duration="2500" data-aos-easing="ease-in-out">Acreditamos em uma abordagem sem escrúpulos, assim como Jesus aceita a todos nós, também acolhemos a todos que buscam o verdadeiro evangelho de Deus. Nossa missão é fazer com que as pessoas saibam que o amor de Deus aceita a todos, mas também pede renúncia das vidas antigas e nos desafia a sermos melhores a cada dia em nossas interações com o próximo. Acreditamos em um Deus que ama a todos como filhos, mas que também nos corrige quando necessário, assim como um pai faria com seus filhos, mesmo que o castigo seja severo demais.</p>
+            <p class="tx5" data-aos="fade-down" data-aos-duration="2500" data-aos-easing="ease-in-out">Estamos comprometidos em compartilhar essa mensagem de amor, renovação e crescimento espiritual com todos aqueles que buscam um caminho de fé e esperança.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--|Main|-->
+
+    <!--|Footer|-->
+    <footer></footer>
+    <!--|Footer|-->
+
+    <!--|Script|-->
+    <script>
+    </script>
+    <!--|Script|-->
+  </body>
+</html>
