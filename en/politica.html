@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" content="width=device-width initial-scale=1" charset="utf-8">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Por Ele I Church">
+    <meta name="author" content="Unilatem">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Por Ele I Church | Privacy Policy</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS e JS Inside|-->
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../aos.css">
+    <script src="../script.js"></script>
+    <script src="../aos.js"></script>
+    <!--|CSS e JS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+    <script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+    </script>
+    <!--|Animation|-->
+  </head>
+  <body>
+    <!--|Header|-->
+    <header></header>
+    <!--|Header|-->
+
+    <!--|Main|-->
+    <main>
+      <section id="secpl">
+        <h1 class="ttpl">Privacy Policy<img class="impl" src="../images/politicy.svg"></h1>
+        <div class="dvpl">
+          <p class="txpl">
+          Your privacy is important to us.
+          <br><br>
+          It is Por Ele I Church's policy to respect your privacy regarding any information we may collect while operating our website.
+          <br><br>
+          We only request personally identifiable information when we truly need it to provide you with a service. We do so by fair and legal means, with your knowledge and consent. We also tell you why we are collecting it and how it will be used.
+          <br><br>
+          We only retain collected information for as long as necessary to provide the requested service. When we store data, we protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
+          <br><br>
+          We do not share personally identifiable information publicly or with third parties except when required by law.
+          <br><br>
+          Our website may have links to external websites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and cannot accept responsibility for their respective privacy policies.
+          <br><br>
+          You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.
+          <br><br>
+          Your continued use of our website will be considered acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!--|Main|-->
+
+    <!--|Footer|-->
+    <footer></footer>
+    <!--|Footer|-->
+
+    <!--|Script|-->
+    <script>
+    </script>
+    <!--|Script|-->
+  </body>
+</html>

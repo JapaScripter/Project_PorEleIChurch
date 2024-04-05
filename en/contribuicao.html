@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Por Ele I Church">
+    <meta name="author" content="Unilatem">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Por Ele I Church | Contribution</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS e JS Inside|-->
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../aos.css">
+    <script src="../script.js"></script>
+    <script src="../aos.js"></script>
+    <!--|CSS e JS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+    </script>
+    <!--|Animation|-->
+  </head>
+  <body>
+    <!--|Header|-->
+    <header></header>
+    <!--|Header|-->
+
+    <!--|Main|-->
+    <main>
+      <section id="sc6">
+        <h1 class="tt7" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-out">Contribuition</h1>
+        <div class="dv10">
+          <div class="dv11" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <h2 class="tt8">PIX QRCODE</h2>
+            <p class="tx6">Name: Felipe Alapenha</p>
+            <p class="tx6">Bank: Nubank</p>
+            <p class="tx6">Account: 0001</p>
+            <p class="tx6">Agency: 00000-001</p>
+            <img class="im7" src="../images/qrcode.png">
+          </div>
+          <div class="dv11" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <h2 class="tt8">PIX QRCODE</h2>
+            <p class="tx6">Name: Brendon Nunes</p>
+            <p class="tx6">Bank: Nubank</p>
+            <p class="tx6">Account: 0001</p>
+            <p class="tx6">Agency: 00000-001</p>
+            <img class="im7" src="../images/qrcode.png">
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--|Main|-->
+
+    <!--|Footer|-->
+    <footer></footer>
+    <!--|Footer|-->
+
+    <!--|Script|-->
+    <script>
+    </script>
+    <!--|Script|-->
+  </body>
+</html>

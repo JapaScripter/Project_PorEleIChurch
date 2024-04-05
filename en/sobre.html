@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Por Ele I Church">
+    <meta name="author" content="Unilatem">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Por Ele I Church | About Us</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS e JS Inside|-->
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../aos.css">
+    <script src="../script.js"></script>
+    <script src="../aos.js"></script>
+    <!--|CSS e JS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+    </script>
+    <!--|Animation|-->
+  </head>
+  <body>
+    <!--|Header|-->
+    <header></header>
+    <!--|Header|-->
+
+    <!--|Main|-->
+    <main>
+      <section id="sc5">
+        <h1 class="tt6" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-out">About Us</h1>
+        <div class="dv8">
+          <div class="dv9">
+            <img class="im6" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" src="../images/pastor.jpeg">
+            <div class="bl1"></div>
+          </div>
+          <div class="dv9">
+            <p class="tx5" data-aos="fade-down" data-aos-duration="2500" data-aos-easing="ease-in-out">In our church, we have an inspiring story that begins with our beloved Pastor Felipe Alapenha, affectionately known as Pastor Felipinho. Since he was little, he has been involved with the Assembly of God, as his mother had attended church for many years. After three decades of dedication and service, Pastor Felipe had a vision from God to open his own congregation, and that is how we are opening our church without borders.</p>
+            <p class="tx5" data-aos="fade-down" data-aos-duration="2500" data-aos-easing="ease-in-out">We believe in an unscrupulous approach, just as Jesus accepts us all, we also welcome everyone who seeks the true gospel of God. Our mission is to let people know that God's love accepts everyone, but also calls for renunciation of old lives and challenges us to be better every day in our interactions with others. We believe in a God who loves everyone as children, but who also corrects us when necessary, just as a father would do with his children, even if the punishment is too severe.</p>
+            <p class="tx5" data-aos="fade-down" data-aos-duration="2500" data-aos-easing="ease-in-out">We are committed to sharing this message of love, renewal and spiritual growth with all those seeking a path of faith and hope.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--|Main|-->
+
+    <!--|Footer|-->
+    <footer></footer>
+    <!--|Footer|-->
+
+    <!--|Script|-->
+    <script>
+    </script>
+    <!--|Script|-->
+  </body>
+</html>

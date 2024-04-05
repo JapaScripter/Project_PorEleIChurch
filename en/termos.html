@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" content="width=device-width initial-scale=1" charset="utf-8">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Por Ele I Church">
+    <meta name="author" content="Unilatem">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Por Ele I Church | Terms of use</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS e JS Inside|-->
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../aos.css">
+    <script src="../script.js"></script>
+    <script src="../aos.js"></script>
+    <!--|CSS e JS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+    </script>
+    <!--|Animation|-->
+  </head>
+  <body>
+    <!--|Header|-->
+    <header></header>
+    <!--|Header|-->
+
+    <!--|Main|-->
+    <section id="sectm">
+      <h1 class="tttm">Terms of use<img class="imtm" src="../images/terms.svg"></img></h1>
+      <div class="dvtm">
+        <p class="txtm">
+        Welcome to Por Ele I Church! By accessing and using our website, you agree to comply with the following terms and conditions:
+        <br><br>
+        1. Use of the Site: Por Ele I Church is intended for commercial and business use. You agree to use the website only for the purposes intended in the context of commercial activities.
+        <br><br>
+        2. User Content: By contributing content to Por Ele I Church, you grant permission for this content to be used by the platform in accordance with our terms, mainly in a commercial context.
+        <br><br>
+        3. Privacy: We respect your privacy. Read our privacy policy to understand how your information is collected, used and protected.
+        <br><br>
+        4. Intellectual Property: All content on Por Ele I Church, including texts, images, videos and logos, is protected by copyright and intellectual property, especially in the context of commercial use.
+        <br><br>
+        5. Limitation of Liability: Por Ele I Church is not responsible for direct, indirect, incidental, special or consequential damages resulting from the use or inability to use our website in a commercial context.
+        <br><br>
+        6. Changes to Terms: We reserve the right to modify these terms at any time. We recommend that you periodically review the terms of use.
+        <br><br>
+        By continuing to use the Por Ele I Church website, you agree to these terms and conditions. If you have any questions about the terms of use, please contact us.
+        </p>
+      </div>
+    </section>
+    <!--|Main|-->
+
+    <!--|Footer|-->
+    <footer></footer>
+    <!--|Footer|-->
+
+    <!--|Script|-->
+    <script>
+    </script>
+    <!--|Script|-->
+  </body>
+</html>
