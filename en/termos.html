@@ -1,50 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en-US">
+
+<head>
     <!--|Meta Config.|-->
-    <meta name="viewport" content="width=device-width initial-scale=1" charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="description" content="Por Ele I Church">
     <meta name="author" content="Unilatem">
-    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <!--|Meta Config.|-->
 
     <!--|Title Tab|-->
-    <title>Por Ele I Church | Terms of use</title>
+    <title>Por Ele I Church | Terms of Use</title>
     <!--|Title Tab|-->
 
     <!--|CSS e JS Inside|-->
-    <link rel="stylesheet" href="../index.css">
-    <link rel="stylesheet" href="../aos.css">
+    <link rel="stylesheet" href="../style.css">
     <script src="../script.js"></script>
-    <script src="../aos.js"></script>
     <!--|CSS e JS Inside|-->
 
     <!--|Script Header and Footer Import|-->
-		<script>
-      fetch("header.html")
-        .then(response => {
-          return response.text()
-        })
-        .then(data => {
-          document.querySelector("header").innerHTML = data;
-        });
-      fetch("footer.html")
-        .then(response => {
-          return response.text()
-        })
-        .then(data => {
-          document.querySelector("footer").innerHTML = data;
-        });
-    </script>
+		<script>fetch("header.html").then((e=>e.text())).then((e=>{document.querySelector("header").innerHTML=e})),fetch("footer.html").then((e=>e.text())).then((e=>{document.querySelector("footer").innerHTML=e}));</script>
     <!--|Script Header and Footer Import|-->
 
     <!--|Animation|-->
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      AOS.init();
-    });
-    </script>
+    <script>document.addEventListener("DOMContentLoaded",(function(){AOS.init()}));</script>
     <!--|Animation|-->
   </head>
   <body>
