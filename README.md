@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/porelechurch_logo.png" alt="Logo da Por Ele Church" width="200"/>
+  <img src="images/Logo_Por_Ele.jpg" alt="Logo da Por Ele Church" width="200"/>
 </p>
 
 <h1 align="center">Site Institucional - Por Ele Church</h1>
